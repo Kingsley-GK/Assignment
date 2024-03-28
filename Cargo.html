@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        /* box-sizing: border-box; */
+        margin: 0;
+        padding: 0;
+        background-color: rgb(15, 14, 14);
+        justify-content: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .vet{
+        color: grey;
+    }
+
+    li,a, button{
+        /* font-family: sans-serif; */
+        font-weight: 500;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        padding: 10px 0;
+
+
+    }
+
+    button{
+        padding: 10px 20px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+
+    }
+
+    .button:hover{
+        background-color: rgb(94, 94, 255);
+
+    }
+
+
+
+    span{
+        padding: 0 7px;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .semi_crl{
+        font-size: 17px;
+        padding: 5px 0;
+    }
+
+    .light_hdr{
+        color: white;
+    }
+
+    .logo{
+        cursor: pointer;
+    }
+
+    .nav_links{
+        list-style: none;
+    }
+
+    .nav_links li{
+        display: inline-block;
+        
+
+    }
+
+    .centre_fig{
+        color: white;
+        text-align: center;
+        padding: 12rem 0;
+        font-size: 25px;
+
+       
+    }
+
+    .strat{
+        color: grey;
+        padding: 0 0;
+    }
+
+    .contain{
+        font-size: none;
+        padding-top: 15px;
+    }
+
+    .push{
+        padding: 10px 20px;
+        margin-top: 20px;
+        background-color: blue;
+        border: none;
+        border-radius: 30px;
+        color: whitesmoke;     
+    }
+
+    .btw{
+        text-transform: capitalize;
+        color: white;
+        font-size: 25px;
+    }
+
+    .ace{
+        float: inline-start;
+        padding: 0 10%;
+    }
+
+    .link{
+        float: inline-end;
+        padding: 0 10%;
+        text-decoration: underline;
+    }
+
+   .you{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 40px;
+        margin-top: 70px;
+        width: 100%;
+        color: white;
+        justify-content: center;
+        align-items: center;
+   }
+
+   /* .mini{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 80px;
+   } */
+
+   .one{
+    float: left;
+   }
+   .two{
+    float: right;
+   }
+
+   .mini{
+    padding-bottom: 40px;
+    font-size: 20px;
+   }
+
+   .about_1{
+    border: 1px solid grey;
+    border-radius: 10px;
+   }
+
+   .about_1:hover{
+    background-color: blue;
+   }
+
+   .about_2{
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: blue;
+   }
+
+   .about_3{
+    border: 1px solid grey;
+    border-radius: 10px;
+   }
+
+   .about_3:hover{
+    background-color: blue;
+   }
+
+   .sec h3{
+    font-size: 30px;
+   }
+
+   .sec p{
+    font-size: 25px;
+    padding-top: 10px;
+   }
+
+   @media screen and (max-width: 600px){
+        .cont{
+            display: none;
+
+        }
+
+    .centre_fig{
+        font-size: 16px;
+    }
+
+    .btw{
+        font-size: 16px;
+    }
+
+    .btw a{
+        font-size: 16px;
+    }
+
+    .you{
+        display: block;
+        clear: both;
+    }
+
+    .about_1{
+        padding: 15px;
+        margin: 10px 20px;
+        font-size: 10px;
+    }
+
+    .about_2{
+        font-size: 30px;
+        padding: 10%;
+        margin: 10px 20px;
+   }
+
+
+    .about_3{
+        padding: 15px;
+        margin: 10px 20px;
+    }
+
+    .sec{
+        font-size: 10px;
+    }
+
+
+
+
+
+    
+   }
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+</style>
+<body>
+    <header class="cont">
+       <p class="light_hdr"><span class="semi_crl">&#9687</span><span class="lenght">&#124</span>Hello@cargo.io</p>
+        <nav>
+            <span class="yeet">&barwedge;</span>
+            <ul class="nav_links">
+                <li><a href="#">Product.</a></li>
+                <li class="vet"><a href="#">Our work</a></li>
+                <li><a href="#">.Services</a></li>
+            </ul>
+            
+        </nav>
+        <a class="cta" href="#"><span>FAQ</span><button>Get Started</button></a>
+    </header>
+
+    <div>
+       <div class="centre_fig">
+            <h1>Cargo <span class="strat">Design</span> Agency</h1>
+            <p class="contain">Ahead with 100+ Amazing clients with 20+ Country <br> Served the best design materials.</p>
+            <button class="push">Get Started</button>
+       </div>
+    </div>
+
+   <div class="btw">
+        <p class="ace">case studies</p> 
+        <p class="link"><a href="#">view all</a></p>
+   </div>
+
+
+   <section>
+        <div class="you">
+            <div class="about_1">
+                <div class="mini">
+                    <p class="one">tecnology</p>
+                    <p class="two">dashboard</p>
+                </div>
+                
+                <div class="sec">
+                    <h3>google</h3>
+                    <p>Best tecnology results driven web design and marketing agency.</p>
+                    <p>View case study<span class="item">&#8594</span></p>
+                </div>
+            </div>
+
+            <div class="about_2">
+                <div class="mini">
+                    <p class="one">finance</p>
+                    <p class="two">mobile app</p>
+                </div>
+                
+                <div class="sec">
+                    <h3>dunkins tech</h3>
+                    <p class="one">Using a proving method of innovative design marketing strategy.</p>
+                    <p class="two">View case study<span class="item">&#8594</span></p>
+                </div>
+            </div>
+
+            <div class="about_3">
+                <div class="mini">
+                    <p class="one">finance</p>
+                    <p class="two">mobile app</p>
+                </div>
+                
+                <div class="sec">
+                    <h3>nokia gadget</h3>
+                    <p>Build Customise and play plug data Driven customers.</p>
+                    <p>View case study<span class="item">&#8594</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+   
+</body>
+</html>
